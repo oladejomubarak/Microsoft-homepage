@@ -213,6 +213,9 @@ margin-right: 10px;
   .menu-btn:hover{
     opacity: 0.5;
   }
+  .main-nav ul.right-menu{
+    margin-right: 50px;
+  }
   .main-nav ul.main-menu{
     display: block;
     position: absolute;
@@ -225,6 +228,7 @@ margin-right: 10px;
     opacity: 0.9;
     padding: 30px;
     transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
   }
   .main-nav ul.main-menu li{
     padding: 10px;
