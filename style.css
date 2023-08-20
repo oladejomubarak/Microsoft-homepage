@@ -183,7 +183,12 @@ margin-right: 10px;
   justify-content: space-between;
 }
 .footer div{
-  
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer div i{
+  margin-right: 10px;
 }
 .footer ul{
   display: flex;
@@ -191,5 +196,5 @@ margin-right: 10px;
 }
 .footer li{
   margin-right: 30px;
-  margin-bottom: ;
+  margin-bottom: 20px;
 }
